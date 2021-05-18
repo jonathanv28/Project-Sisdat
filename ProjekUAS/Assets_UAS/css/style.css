@@ -1,0 +1,713 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #242424;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: Poppins-reg;
+    src: url(fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins-light;
+    src: url(fonts/Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: Poppins-bold;
+    src: url(fonts/Poppins/Poppins-Bold.ttf);
+}
+
+
+/* navbar */
+
+.navbar-logo {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    left: 72px;
+    top: 20px;
+}
+
+.hello-user {
+    margin-left: 100px;
+    font-family: Poppins-reg;
+    font-size: 16px;
+    color: #E4E4E4;
+}
+
+.hello {
+    font-family: Poppins-light;
+    font-size: 24px;
+    line-height: 0px;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background-color: #1A1A1A;
+    box-shadow: 0px 39px 38px -31px rgba(0, 0, 0, 0.78);
+}
+
+nav ul {
+    position: relative;
+    top: 15px;
+    margin: 0;
+    float: right;
+    right: 3%;
+}
+
+nav ul li {
+    float: left;
+    display: block;
+    margin: 30px 30px 30px 30px;
+    cursor: pointer;
+}
+
+nav ul li a {
+    position: relative;
+    text-decoration: none;
+    font-family: Poppins-light;
+    font-size: 24px;
+    line-height: 0px;
+    /* identical to box height */
+    color: #C4C4C4;
+}
+
+nav ul li a:hover {
+    color: #55a8fd;
+}
+
+
+/* featured picture */
+
+.featured-picture {
+    position: relative;
+    width: 100%;
+    height: 810px;
+    left: 0px;
+    top: 0px;
+}
+
+
+/* profile section*/
+
+section#profile {
+    position: relative;
+    width: 1600px;
+    height: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    background: #343434;
+    box-shadow: 0px 7px 18px rgba(0, 0, 0, 0.27);
+    border-radius: 54px;
+}
+
+.profile-logo {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    left: 80px;
+    top: 72px;
+}
+
+.profile-text {
+    position: relative;
+    width: 1000px;
+    height: 280px;
+    left: 540px;
+    top: -270px;
+    font-family: Poppins-light;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: justify;
+    color: #E4E4E4;
+}
+
+#slider {
+    overflow: hidden;
+}
+
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+
+#slider figure img {
+    width: 20%;
+    float: left;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    15% {
+        left: 0;
+    }
+    20% {
+        left: -100%;
+    }
+    35% {
+        left: -100%;
+    }
+    40% {
+        left: -200%;
+    }
+    55% {
+        left: -200%;
+    }
+    60% {
+        left: -300%;
+    }
+    75% {
+        left: -300%;
+    }
+    80% {
+        left: -400%;
+    }
+    95% {
+        left: -400%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+
+
+/* FAQ */
+
+#faq {
+    position: relative;
+    width: 1600px;
+    height: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    background: #343434;
+    box-shadow: 0px 7px 18px rgba(0, 0, 0, 0.27);
+    border-radius: 54px;
+}
+
+.judul-faq {
+    position: relative;
+    width: 200px;
+    height: 115px;
+    margin-top: 50px;
+    margin-left: 80px;
+
+    font-family: Poppins-bold;
+    font-size: 96px;
+    line-height: 200%;
+    /* or 115px */
+
+    text-align: justify;
+
+    color: #E4E4E4;
+}
+
+.isi-faq {
+    position: relative;
+    width: 1450px;
+    height: 278px;
+    margin-top: 50px;
+    margin-left: 80px;
+
+    font-family: Poppins-light;
+    font-size: 24px;
+    line-height: 120%;
+    /* or 29px */
+
+    text-align: justify;
+
+    color: #E4E4E4;
+}
+
+#contacts {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #343434;
+}
+
+.isi-contacts {
+    position: relative;
+    width: 249px;
+    height: 90px;
+    margin-top: -55px;
+    margin-left: auto;
+    margin-right: 40px;
+
+    font-family: Poppins-light;
+    font-size: 18px;
+    line-height: 120%;
+
+    text-align: right;
+
+    color: #E4E4E4;
+}
+
+/*===============================LOGIN=====================================*/
+.login {
+    position: relative;
+    width: 400px;
+    height: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+
+    background: #343434;
+    box-shadow: 0px 18px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 75px;
+}
+
+.judul-login {
+    position: relative;
+    width: 197px;
+    height: 96px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50px;
+
+    font-family: Poppins-bold;
+    font-size: 64px;
+    line-height: 96px;
+    /* identical to box height */
+    color: #A4A4A4;
+}
+
+.logo-login {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 145px;
+    top: 90px;
+}
+
+.label-login-username {
+    font-family: Poppins-reg;
+    font-size: 18px;
+    margin-top: 115px;
+    margin-left: 26px;
+    color:#A4A4A4;
+}
+
+.label-login-pw {
+    font-family: Poppins-reg;
+    font-size: 18px;
+    margin-left: 26px;
+    color: #A4A4A4;
+}
+
+.input-login-username {
+    position: relative;
+    width: 330px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Poppins-reg;
+    font-size: 1rem;
+    padding: 0.1rem 0.7rem;
+    outline: none;
+    border: none;
+    background: #C4C4C4;
+    left: 24px;
+    top: 5px;
+    border-radius: 15px;
+}
+
+.input-login-pw {
+    position: relative;
+    width: 330px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Poppins-reg;
+    font-size: 1rem;
+    padding: 0.1rem 0.7rem;
+    outline: none;
+    border: none;
+    background: #C4C4C4;
+    left: 24px;
+    top: 5px;
+    border-radius: 15px;
+}
+
+.submit-login {
+    width: 100px;
+    height: 100px;
+    margin-left: 145px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    background-image: url(https://media.discordapp.net/attachments/764174302911397920/842492912365600869/arrow.png?width=100&height=100);
+    color: transparent;
+}
+
+.dont-have-account {
+    margin-top: 15px;
+    text-align: center;
+    font-family: Poppins-light;
+    font-size: 14px;
+    line-height: 21px;
+    color: #A4A4A4;
+}
+
+.panah-atas {
+    width: 30px;
+    height: 5px;
+    left: 933.54px;
+    margin-top: -105px;
+    margin-left: 185px;
+
+    background: #FFFFFF;
+    border-radius: 13px;
+    transform: rotate(45deg);
+}
+
+.panah-tengah {
+    width: 60px;
+    height: 5px;
+    margin-left: 170px;
+    margin-top: -45px;
+    background: #FFFFFF;
+    border-radius: 13px;
+}
+
+.panah-bawah {
+    width: 30px;
+    height: 5px;
+    left: 933.54px;
+    top: 791.21px;
+    margin-top: 0px;
+    margin-left: 185px;
+
+    background: #FFFFFF;
+    border-radius: 13px;
+    transform: rotate(-45deg);
+}
+
+.panah {
+    margin-top: -200px;
+    margin-left: 165px;
+}
+
+/* SIGNUP */
+.register {
+    position: relative;
+    width: 400px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+
+    background: #343434;
+    box-shadow: 0px 18px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 75px;
+}
+
+.judul-signup {
+    position: relative;
+    width: 252px;
+    height: 81px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50px;
+
+    font-family: Poppins-bold;
+    font-size: 54px;
+    line-height: 81px;
+    /* identical to box height */
+    color: #A4A4A4;
+}
+
+.label-signup-name {
+    font-family: Poppins-reg;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 26px;
+    color:#A4A4A4;
+}
+
+.label-signup-username {
+    font-family: Poppins-reg;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 26px;
+    color:#A4A4A4;
+}
+
+.label-signup-email {
+    font-family: Poppins-reg;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 26px;
+    color:#A4A4A4;
+}
+
+.label-signup-pw {
+    font-family: Poppins-reg;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 26px;
+    color: #A4A4A4;
+}
+
+.label-signup-address {
+    font-family: Poppins-reg;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 26px;
+    color: #A4A4A4;
+}
+
+.input-signup-name {
+    position: relative;
+    width: 330px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Poppins-reg;
+    font-size: 1rem;
+    padding: 0.1rem 0.7rem;
+    outline: none;
+    border: none;
+    background: #C4C4C4;
+    left: 24px;
+    top: 5px;
+    border-radius: 15px;
+}
+
+
+.input-signup-username {
+    position: relative;
+    width: 330px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Poppins-reg;
+    font-size: 1rem;
+    padding: 0.1rem 0.7rem;
+    outline: none;
+    border: none;
+    background: #C4C4C4;
+    left: 24px;
+    top: 5px;
+    border-radius: 15px;
+}
+
+.input-signup-email {
+    position: relative;
+    width: 330px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Poppins-reg;
+    font-size: 1rem;
+    padding: 0.1rem 0.7rem;
+    outline: none;
+    border: none;
+    background: #C4C4C4;
+    left: 24px;
+    top: 5px;
+    border-radius: 15px;
+}
+
+.input-signup-pw {
+    position: relative;
+    width: 330px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Poppins-reg;
+    font-size: 1rem;
+    padding: 0.1rem 0.7rem;
+    outline: none;
+    border: none;
+    background: #C4C4C4;
+    left: 24px;
+    top: 5px;
+    border-radius: 15px;
+}
+
+.input-signup-address {
+    position: relative;
+    width: 330px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Poppins-reg;
+    font-size: 1rem;
+    padding: 0.1rem 0.7rem;
+    outline: none;
+    border: none;
+    background: #C4C4C4;
+    left: 24px;
+    top: 5px;
+    border-radius: 15px;
+}
+
+.logo-signup {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    left: 147.5px;
+    top: 15px;
+}
+
+.submit-signup {
+    width: 200px;
+    height: 40px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+    margin-top: 20px;
+    margin-left: 92.5px;
+    font-family: Poppins-bold;
+    font-size: 24px;
+    background-color: #3EB443;
+    border-radius: 30px;
+}
+
+.back-button {
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+
+    margin-top: 100px;
+    font-family: Poppins-bold;
+    font-size: 20px;
+    color: #E4E4E4;
+    background-color: #3EB443;
+    border-radius: 40px;
+}
+
+.remah-signup {
+    margin: 0px auto;
+    width: 10px;
+    height: 20px;
+    background: #242424;
+}
+
+/* WELCOME PAGE */
+.big-box {
+    width: 1600px;
+    height: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+
+    background: #343434;
+    box-shadow: 0px 18px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 75px;
+}
+
+.logo-admin {
+    margin-left: 200px;
+    margin-top: 150px;
+}
+
+.logo-customer {
+    margin-left: 375px;
+    margin-top: 150px;
+}
+
+/* ADMIN */
+.back-admin {
+    border: 1px solid black;
+    padding: 25px 60px;
+    cursor: pointer;
+    text-decoration: none;
+
+    margin-top: 0px;
+    margin-left: 1280px;
+    font-family: Poppins-bold;
+    font-size: 42px;
+    color: #E4E4E4;
+    background-color: #3EB443;
+    border-radius: 40px;
+}
+
+/* CATALOG */
+.box-table {
+    width: 1150px;
+    height: 1440px;
+    left: 150px;
+    top: 356px;
+
+    background: #343434;
+    border-radius: 25px;
+}
+
+.table-catalog {
+    margin-top: 10px;
+    border: 1px solid #C4C4C4;
+}
+
+.remah-remah {
+    margin: 0px auto;
+    width: 10px;
+    height: 5px;
+    background: #343434;
+}
+
+.data-table {
+    margin-left: 50px; 
+    margin-right: 50px;
+    font-family: Poppins-reg; 
+    color: #C4C4C4;
+    font-size: 20px; 
+    padding: 30px 50px; 
+    text-align: left;
+}
+
+.table-catalog td {
+    border: 1px solid #C4C4C4;
+}
+
+.add-button {
+    padding: 10px 40px;
+    border-style: none;
+    cursor: pointer;
+    text-decoration: none;
+
+    margin: 10px 10px;
+    font-family: Poppins-bold;
+    font-size: 18px;
+    color: #E4E4E4;
+    background-color: #3EB443;
+    border-radius: 50px;
+}
+
+.check-trans {
+    padding: 25px 60px;
+    cursor: pointer;
+    text-decoration: none;
+
+    margin-top: 100px;
+    margin-left: 380px;
+    font-family: Poppins-bold;
+    font-size: 42px;
+    color: #E4E4E4;
+    background-color: #3EB443;
+    border-radius: 40px;
+}
